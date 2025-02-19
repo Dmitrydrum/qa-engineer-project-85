@@ -1,18 +1,17 @@
 ---
 # default registry by email
-# в первом кейсе используется реальный тестовый имейл
-# в последующих кейсах используются одноразовые имейлы из специального сервиса
 # rbe-1
 - summary: |
     Успешная регистрация нового пользователя
   requirement: |
     После отправки валидных данных создаётся аккаунт пользователя, а сам пользователь попадает на страницу лобби.
   prerequisites: |
-    Открыта страница регистрации https://codebattle.hexlet.io/users/new?locale=en&next=%2F
+    Открыта главная страница https://codebattle.hexlet.io/
     Nickname и email нет в бд
   test-data: |
-    Nickname - Newbee Email - d2148468@gmail.com Password - test345 Password Confirmation - test345
+    Nickname - Newbee Email - toster092023@gmail.com Password - test345 Password Confirmation - test345
   steps:
+    - Нажать на кнопку "Sign up"
     - Ввести Nickname
     - Ввести Email
     - Ввести Password
@@ -30,7 +29,7 @@
     Открыта страница регистрации https://codebattle.hexlet.io/users/new?locale=en&next=%2F
     Nickname и email нет в бд
   test-data: |
-    Nickname - Newbee1 Email - test@mail.com Password - test34 Password Confirmation - test34
+    Nickname - Newbee1 Email - новый email Password - test34 Password Confirmation - test34
   steps:
     - Ввести Nickname
     - Ввести Email
@@ -49,7 +48,7 @@
     Открыта страница регистрации https://codebattle.hexlet.io/users/new?locale=en&next=%2F
     Nickname и email нет в бд
   test-data: |
-    Nickname - Newbee2 Email - test@mail.com Password - 0test34test01gx0 Password Confirmation - test34test01gxc1
+    Nickname - Newbee2 Email - новый email Password - 0test34test01gx0 Password Confirmation - test34test01gxc1
   steps:
     - Ввести Nickname
     - Ввести Email
@@ -68,7 +67,7 @@
     Открыта страница регистрации https://codebattle.hexlet.io/users/new?locale=en&next=%2F
     Nickname уже существует в бд
   test-data: |
-    Nickname - Newbee Email - toster092023@gmail.com Password - test345 Password Confirmation - test345
+    Nickname - Newbee Email - новый email Password - test345 Password Confirmation - test345
   steps:
     - Ввести Nickname
     - Ввести Email
@@ -87,7 +86,7 @@
     Открыта страница регистрации https://codebattle.hexlet.io/users/new?locale=en&next=%2F
     Email уже существует в бд
   test-data: |
-    Nickname - Newbee3 Email - d2148468@gmail.com Password - test345 Password Confirmation - test345
+    Nickname - Newbee3 Email - зарегистрированный email Password - test345 Password Confirmation - test345
   steps:
     - Ввести Nickname
     - Ввести Email
@@ -107,7 +106,7 @@
     Открыта страница регистрации https://codebattle.hexlet.io/users/new?locale=en&next=%2F
     Nickname и Email нет в бд
   test-data: |
-    Nickname - Newbee3 Email - toster092023@gmail.com Password - test3 Password Confirmation - test3
+    Nickname - Newbee3 Email - новый email Password - test3 Password Confirmation - test3
   steps:
     - Ввести Nickname
     - Ввести Email
@@ -126,7 +125,7 @@
     Открыта страница регистрации https://codebattle.hexlet.io/users/new?locale=en&next=%2F
     Nickname и Email нет в бд
   test-data: |
-    Nickname - Newbee3 Email - toster092023@gmail.com Password - test34test01gxc12 Password Confirmation - test34test01gxc12
+    Nickname - Newbee3 Email - новый email Password - test34test01gxc12 Password Confirmation - test34test01gxc12
   steps:
     - Ввести Nickname
     - Ввести Email
@@ -145,7 +144,7 @@
     Открыта страница регистрации https://codebattle.hexlet.io/users/new?locale=en&next=%2F
     Nickname и Email нет в бд
   test-data: |
-    Nickname - Newbee3 Email - toster092023@gmail.com Password - test345 Password Confirmation - test346
+    Nickname - Newbee3 Email - новый email Password - test345 Password Confirmation - test346
   steps:
     - Ввести Nickname
     - Ввести Email
@@ -164,7 +163,7 @@
     Открыта страница регистрации https://codebattle.hexlet.io/users/new?locale=en&next=%2F
     Nickname и Email нет в бд
   test-data: |
-    Nickname - Newbee3 Email - toster092023@gmail.com Password - test 345 Password Confirmation - test 346
+    Nickname - Newbee3 Email - новый email Password - test 345 Password Confirmation - test 346
   steps:
     - Ввести Nickname
     - Ввести Email
@@ -198,7 +197,7 @@
     Открыта страница регистрации https://codebattle.hexlet.io/users/new?locale=en&next=%2F
     Nickname и email нет в бд
   test-data: |
-    Nickname - "n l" Email - test@mail.com Password - test345 Password Confirmation - test345
+    Nickname - "n l" Email - новый email Password - test345 Password Confirmation - test345
   steps:
     - Ввести Nickname
     - Ввести Email
@@ -217,7 +216,7 @@
     Открыта страница регистрации https://codebattle.hexlet.io/users/new?locale=en&next=%2F
     Nickname и email нет в бд
   test-data: |
-    Nickname - newbeetest_user1 Email - test@mail.com Password - test345 Password Confirmation - test345
+    Nickname - newbeetest_user1 Email - новый email Password - test345 Password Confirmation - test345
   steps:
     - Ввести Nickname
     - Ввести Email
@@ -236,7 +235,7 @@
     Открыта страница регистрации https://codebattle.hexlet.io/users/new?locale=en&next=%2F
     Nickname и email нет в бд
   test-data: |
-    Nickname - p1 Email - test@mail.com Password - test345 Password Confirmation - test345
+    Nickname - p1 Email - новый email Password - test345 Password Confirmation - test345
   steps:
     - Ввести Nickname
     - Ввести Email
@@ -255,7 +254,7 @@
     Открыта страница регистрации https://codebattle.hexlet.io/users/new?locale=en&next=%2F
     Nickname и email нет в бд
   test-data: |
-    Nickname - newbeetestuser123 Email - test@mail.com Password - test345 Password Confirmation - test345
+    Nickname - newbeetestuser123 Email - новый email Password - test345 Password Confirmation - test345
   steps:
     - Ввести Nickname
     - Ввести Email
@@ -274,7 +273,7 @@
     Открыта страница регистрации https://codebattle.hexlet.io/users/new?locale=en&next=%2F
     Nickname и email нет в бд
   test-data: |
-    Nickname - " newbee5" Email - test@mail.com Password - test345 Password Confirmation - test345
+    Nickname - " newbee5" Email - новый email Password - test345 Password Confirmation - test345
   steps:
     - Ввести Nickname
     - Ввести Email
@@ -293,7 +292,7 @@
     Открыта страница регистрации https://codebattle.hexlet.io/users/new?locale=en&next=%2F
     Nickname и email нет в бд
   test-data: |
-    Nickname - "newbee5 " Email - test@mail.com Password - test345 Password Confirmation - test345
+    Nickname - "newbee5 " Email - новый email Password - test345 Password Confirmation - test345
   steps:
     - Ввести Nickname
     - Ввести Email
@@ -312,7 +311,7 @@
     Открыта страница регистрации https://codebattle.hexlet.io/users/new?locale=en&next=%2F
     Nickname и email нет в бд
   test-data: |
-    Nickname - "new  bee" Email - test@mail.com Password - test345 Password Confirmation - test345
+    Nickname - "new  bee" Email - новый email Password - test345 Password Confirmation - test345
   steps:
     - Ввести Nickname
     - Ввести Email
@@ -331,7 +330,7 @@
     Открыта страница регистрации https://codebattle.hexlet.io/users/new?locale=en&next=%2F
     Nickname и email нет в бд
   test-data: |
-    Nickname - "Dmiтрий" Email - test@mail.com Password - test345 Password Confirmation - test345
+    Nickname - "Dmiтрий" Email - новый email Password - test345 Password Confirmation - test345
   steps:
     - Ввести Nickname
     - Ввести Email
@@ -350,7 +349,7 @@
     Открыта страница регистрации https://codebattle.hexlet.io/users/new?locale=en&next=%2F
     Nickname и email нет в бд
   test-data: |
-    Nickname - "!@#$%^&*(+-=~ Email - test@mail.com Password - test345 Password Confirmation - test345
+    Nickname - "!@#$%^&*(+-=~ Email - новый email Password - test345 Password Confirmation - test345
   steps:
     - Ввести Nickname
     - Ввести Email
@@ -369,7 +368,7 @@
     Открыта страница регистрации https://codebattle.hexlet.io/users/new?locale=en&next=%2F
     Nickname и email нет в бд
   test-data: |
-    Nickname - _newb Email - test@mail.com Password - test345 Password Confirmation - test345
+    Nickname - _newb Email - новый email Password - test345 Password Confirmation - test345
   steps:
     - Ввести Nickname
     - Ввести Email
@@ -388,7 +387,7 @@
     Открыта страница регистрации https://codebattle.hexlet.io/users/new?locale=en&next=%2F
     Nickname и email нет в бд
   test-data: |
-    Nickname - 1newb Email - test@mail.com Password - test345 Password Confirmation - test345
+    Nickname - 1newb Email - новый email Password - test345 Password Confirmation - test345
   steps:
     - Ввести Nickname
     - Ввести Email
@@ -583,7 +582,7 @@
   requirement: |
     При вводе валидных данных пользователь попадает на сайт
   prerequisites:
-    Открыта страница логина https://codebattle.hexlet.io/session/new?locale=en&next=%2F
+    Открыта главная страница https://codebattle.hexlet.io/
     Аккаунт существует в бд
   test-data: |
     Email - d2148468@gmail.com Password - test345
@@ -615,24 +614,6 @@
   expected-result: |
     Появляется оповещение, что почта или пароль введены неверно. Код 4хх
 
-# lp-1.2
-# есть ли смысл этой проверки?
-- summary: |
-    Проверка неуспешной авторизации на сайт с неправильной почтой
-  requirement: |
-    Авторизация на сайт не должна проходить при отправке существующего пароля и несоответствующей почты
-  prerequisites:
-    Открыта страница логина https://codebattle.hexlet.io/session/new?locale=en&next=%2F
-    Аккаунт существует в бд
-  test-data: |
-    Email - toster092023@gmail.com Password - test345
-  steps:
-    - Ввести Email
-    - Ввести Password
-    - Нажать на кнопку "Submit"
-  expected-result: |
-    Появляется оповещение, что почта или пароль введены неверно
-
 # lp-1.3
 - summary: |
     Проверка неуспешной авторизации на сайт с несуществующей почтой в бд
@@ -646,23 +627,6 @@
   steps:
     - Ввести Email
     - Ввести Password
-    - Нажать на кнопку "Submit"
-  expected-result: |
-    Появляется оповещение, что почта или пароль введены неверно
-
-# lp-1.4
-- summary: |
-    Проверка неуспешной авторизации на сайт с валидной почтой в поле "Password" и соответствующим паролем в поле "Email"
-  requirement: |
-    Авторизация на сайт не должна проходить при отправке валидной почты и соответствующего пароля в разных полях
-  prerequisites:
-    Открыта страница логина https://codebattle.hexlet.io/session/new?locale=en&next=%2F
-    Аккаунт существует в бд
-  test-data: |
-    Email - d2148468@gmail.com Password - test345
-  steps:
-    - Ввести Email в поле "Password"
-    - Ввести Password в поле "Email"
     - Нажать на кнопку "Submit"
   expected-result: |
     Появляется оповещение, что почта или пароль введены неверно
@@ -685,14 +649,14 @@
 
 # lp-1.5
 - summary: |
-    Проверка неуспешной авторизации с пустым полем "Email" и валидным паролем
+    Проверка неуспешной авторизации с пустым полем "Email"
   requirement: |
     Авторизация не должна проходить при отправке валидного пароля и пустого поля "Email"
   prerequisites:
     Открыта страница логина https://codebattle.hexlet.io/session/new?locale=en&next=%2F
     Аккаунт существует в бд
   test-data: |
-    Email - d2148468@gmail.com Password -
+    Email -  Password - 123456
   steps:
     - Ввести Email
     - Нажать на клавишу "Space" в поле "Password"
@@ -715,24 +679,6 @@
     - Нажать на кнопку "Submit"
   expected-result: |
     Появляется оповещение, что поля "Email" и "Password" являются обязательными. Запрос не отправлен
-    
-# lp-1.6
-# лишняя проверка?
-- summary: |
-    Проверка неуспешной авторизации с никнеймом вместо почты
-  requirement: |
-    После ввода соответствующего никнейма и пароля должно быть оповещение, что почта является невалидной
-  prerequisites:
-    Открыта страница логина https://codebattle.hexlet.io/session/new?locale=en&next=%2F
-    Аккаунт существует в бд
-  test-data: |
-    Email - d2148468@gmail.com Password -
-  steps:
-    - Открыть devtools
-    - Открыть вкладку Network
-    - Нажать на кнопку "Submit"
-  expected-result: |
-    Появляется оповещение, что почта является невалидной. Запрос не отправляется
 
 # general
 # lp-2.1
@@ -830,24 +776,6 @@
   expected-result: |
     Открывается главная страница сайта https://codebattle.hexlet.io/
 
-# lp 2.7
-- summary: |
-    Успешная проверка блокировки входа после множества неуспешных попыток авторизации
-  requirement: |
-    Вход должен быть заблокирован на какое-то время после множества попыток неуспешной авторизации
-  prerequisites:
-    Открыта страница логина https://codebattle.hexlet.io/session/new?locale=en&next=%2F
-  test-data: |
-    email - d2148468@gmail.com, correct_password - test3458, incorrect_password - test3455
-  steps:
-    - ввести email в поле email
-    - ввести incorrect_password в поле password
-    - повторить первые два пункта 10 раз
-    - ввести email в поле email
-    - ввести correct_password в поле password
-  expected-result: |
-    Авторизация не выполняется. Вход заблокирован. Появляется уведомление, что было предпринято слишком много попыток
-
 # forgot your password
 # fyp-1
 - summary: |
@@ -875,10 +803,6 @@
     Пароль успешно изменён. Пользователь попадает на страницу списка лобби. В правом верхнем углу отображается никнейм и аватарка.
     
 # fyp-1.1
-# в целях безопасности опять таки не должно ли быть так, что запрос всё равно отправляется?
-# а как оповещение выходит, что ссылка на восстановление отправлена, если данная почта существует
-# в требованиях у нас этого, конечно, нет. Просто вопрос исходя из логики
-# намного легче понять какие почтовые ящики есть в нашей БД через данную функциональность, нежели через регистрацию
 - summary: |
     Проверка ввода несуществующей почты для восстановления пароля
   requirement: |
@@ -955,29 +879,6 @@
     - Снова нажать на кнопку показа пароля
   expected-result: |
     После первого нажатия показывается пароль, после второго нажатия пароль снова становится скрыт
-
-# fyp-2.2
-# в данном случае пароль меняется
-# в требованиях у нас этого нигде нет
-# исходил из своего опыта, ибо обычно невозможно поменять пароль на тот же, что и был до этого
-# по сути всё работает и ничего не ломается, невозможно посчитать за баг получается
-# нужен ли тогда этот кейс?
-- summary: |
-    Проверка невозможности поменять пароль на тот же, что был до смены
-  requirement: |
-    Тот же пароль не должен приниматься
-  prerequisites:
-    Смена пароля запрошена
-    Переход по ссылке осуществлен 
-    Открыта страница для смены пароля
-    Ткущий пароль аккаунта test3451
-  test-data: |
-    password - test3451
-  steps:
-    - Ввести Password
-    - Нажать на кнопку "Save"
-  expected-result: |
-    Должно быть оповещение, что нельзя использовать предыдущий пароль. Смена пароля не проходит.
 
 # проверка на валидность пароля по требованиям
 # fyp-2.3
@@ -1076,25 +977,6 @@
     - Нажать на кнопку "Save"
   expected-result: |
     Пароль не меняется. Должно быть оповещение, что пароль не должен содержать пробелов.
-
-# fyp-2.8
-# нужен ли этот кейс из соображения безопасности?
-- summary: |
-    Неуспешная смена пароля, если ввести название почтового ящика
-  requirement: |
-    Пароль не должен приниматься, если ввести название почтового ящика
-  prerequisites:
-    Смена пароля запрошена
-    Переход по ссылке осуществлен 
-    Открыта страница для смены пароля
-    Пароль не является текущим
-  test-data: |
-    email аккаунта - d2148468@gmail.com, password - d2148468@gmail.com
-  steps:
-    - Ввести Password
-    - Нажать на кнопку "Save"
-  expected-result: |
-    Пароль не меняется. Должно быть оповещение, что пароль не должен быть таким же, как и название почтового ящика.
 
 # fyp-2.9
 - summary: |
@@ -1447,8 +1329,6 @@
 
 # fight invite
 # в данных тест кейсах выполнен вход с двух разных аккаунтов с разных браузеров
-# здесь идёт конкретизация тестовых данных. Имеет ли это место быть или нужно что-то делать обобщённое всё-таки?
-# Как в случае с проектом интернет магазина, когда не делали привязку к товарам
 # fi-1
 - summary: |
     Успешная проверка приглашения в игру другого пользователя через чат
@@ -1676,10 +1556,6 @@
     Ничего не происходит
 
 # fm-4
-# тут нет требований, я конкретно не знаю, как должно это работать
-# если снять паузу, то игрок не переносится в игру в качестве зрителя
-# однако, если снять паузу и обновить страницу пользователем за которым мы следуем, то автоматически переносит в игру
-# что есть баг из этого? и то и другое?
 - summary: |
     Успешная проверка снятия паузы режима "отслеживания"
   requirement: |
