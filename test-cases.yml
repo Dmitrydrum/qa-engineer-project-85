@@ -1630,7 +1630,7 @@
   requirement: |
     После отправки сообщения в чате все пользователи видят сообщение
   prerequisites:
-    В аккаунт d2148468@gmail.com с никнеймом "newbee"
+    В аккаунт выполнен вход
     Открыта страница https://codebattle.hexlet.io/#lobby
   test-data: |
     0hello123привет0
@@ -1647,7 +1647,7 @@
   requirement: |
     После отправки сообщения в чате все пользователи видят сообщение
   prerequisites:
-    В аккаунт d2148468@gmail.com с никнеймом "newbee"
+    В аккаунт выполнен вход
     Открыта страница https://codebattle.hexlet.io/#lobby
   test-data: |
     отсутствует
@@ -1715,7 +1715,7 @@
   requirement: |
     максимальное количество символов - 1024
   prerequisites:
-    В аккаунт d2148468@gmail.com с никнеймом "newbee"
+    В аккаунт выполнен вход
     Открыта страница https://codebattle.hexlet.io/#lobby
   test-data: |
     qweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqwertqwetyqwertyqwerqwqwertyqwerqw
@@ -1732,7 +1732,7 @@
   requirement: |
     1025 символов не должно отправиться в чат. Кнопка "send" заблокирована
   prerequisites:
-    В аккаунт d2148468@gmail.com с никнеймом "newbee"
+    В аккаунт выполнен вход
     Открыта страница https://codebattle.hexlet.io/#lobby
   test-data: |
     qweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqwertqwetyqwertyqwerqwqwertyqwerqw1
@@ -1752,7 +1752,7 @@
   requirement: |
     Пустое сообщение не должно отправляться
   prerequisites:
-    В аккаунт d2148468@gmail.com с никнеймом "newbee"
+    В аккаунт выполнен вход
     Открыта страница https://codebattle.hexlet.io/#lobby
   test-data: |
     отсутствует
@@ -1767,7 +1767,7 @@
   requirement: |
     После ввода html и отправки в чат скрипт не должен сработать
   prerequisites:
-    В аккаунт d2148468@gmail.com с никнеймом "newbee"
+    В аккаунт выполнен вход
     Открыта страница https://codebattle.hexlet.io/#lobby
   test-data: |
     <script>alert('test')</script>
@@ -1777,3 +1777,144 @@
     - Нажать на кнопку "send"
   expected-result: |
     Сообщение появляется в чате
+
+# end game
+# win a game
+- summary: |
+    Успешная проверка победы в игре
+  requirement: |
+    После того как пользователь1 ввёл первый верное решение задачи, игра становится завершенной, а пользователь2 становится победителем и получает очки рейтинга
+  prerequisites:
+    В аккаунт d2148468@gmail.com с никнеймом "newbee" (пользователь1) выполнен вход с браузера google chrome
+    В аккаунт toster092023@gmail.com с никнеймом "new_player" (пользователь2) выполнен вход с браузера firefox
+    Открыта страница https://codebattle.hexlet.io/#lobby с двух аккаунтов
+  test-data: |
+    отсутствует
+  steps:
+    - Открыть google chrome
+    - Кликнуть по иконке своего профиля
+    - Нажать на кнопку "My profile"
+    - Проверить "elo_rating"
+    - Кликнуть по логотипу сайта
+    - Кликнуть на кнопку "Create a game"
+    - Нажать на кнопку "With other user"
+    - Нажать на кнопку "Create battle"
+    - Открыть firefox
+    - Нажать на кнопку "fight" в списке игр напротив никнейма newbee
+    - Открыть google chrome
+    - Ввести верное решение задачи в окне решения
+    - Нажать на кнопку "run"
+    - Кликнуть по кнопке "GG" в модальном окне
+    - Кликнуть на иконку своего профиля
+    - Нажать на кнопку "My profile"
+    - Проверить рейтинг
+  expected-result: |
+    После ввода верного решения, появляется окно с оповещением и звуком, что пользователь победил. "Elo_rating" повышается
+
+# lose a game
+- summary: |
+    Успешная проверка проигрыша в игре
+  requirement: |
+    После того как пользователь2 ввёл верное решение задачи, игра становится завершенной, а пользователь1 становится проигравшим и теряет очки рейтинга
+  prerequisites:
+    В аккаунт d2148468@gmail.com с никнеймом "newbee" (пользователь1) выполнен вход с браузера google chrome
+    В аккаунт toster092023@gmail.com с никнеймом "new_player" (пользователь2) выполнен вход с браузера firefox
+    Открыта страница https://codebattle.hexlet.io/#lobby с двух аккаунтов
+  test-data: |
+    отсутствует
+  steps:
+    - Открыть google chrome
+    - Кликнуть по иконке своего профиля
+    - Нажать на кнопку "My profile"
+    - Проверить "elo_rating"
+    - Кликнуть по логотипу сайта
+    - Кликнуть на кнопку "Create a game"
+    - Нажать на кнопку "With other user"
+    - Нажать на кнопку "Create battle"
+    - Открыть firefox
+    - Нажать на кнопку "fight" в списке игр напротив никнейма newbee
+    - Ввести верное решение задачи в окне решения
+    - Нажать на кнопку "run"
+    - Открыть google chrome
+    - Кликнуть по кнопке-иконке "x" в модальном окне
+    - Кликнуть на иконку своего профиля
+    - Нажать на кнопку "My profile"
+    - Проверить рейтинг
+  expected-result: |
+    После того, как пользователь2 ввёл верное решение, у пользователя1 открывается модальное окно с оповещением и звуком, что пользователь1 проиграл. Пользователь1 теряет очки рейтинга
+
+# tie in a game
+- summary: |
+    Успешная проверка ничьи в игре
+  requirement: |
+    После того как оба пользователя не дали верный ответ, происходит ничья. Рейтинг не меняется
+  prerequisites:
+    В аккаунт d2148468@gmail.com с никнеймом "newbee" (пользователь1) выполнен вход с браузера google chrome
+    В аккаунт toster092023@gmail.com с никнеймом "new_player" (пользователь2) выполнен вход с браузера firefox
+    Открыта страница https://codebattle.hexlet.io/#lobby с двух аккаунтов
+  test-data: |
+    отсутствует
+  steps:
+    - Открыть google chrome
+    - Кликнуть по иконке своего профиля
+    - Нажать на кнопку "My profile"
+    - Проверить "elo_rating"
+    - Кликнуть по логотипу сайта
+    - Кликнуть на кнопку "Create a game"
+    - Нажать на кнопку "With other user"
+    - Нажать на кнопку "Create battle"
+    - Открыть firefox
+    - Нажать на кнопку "My profile"
+    - Проверить "elo_rating"
+    - Кликнуть по логотипу сайта
+    - Нажать на кнопку "fight" в списке игр напротив никнейма newbee
+    - Дождаться окончания таймера игры
+    - Кликнуть на иконку своего профиля
+    - Нажать на кнопку "My profile"
+    - Проверить рейтинг
+    - Открыть google chrome
+    - Кликнуть на иконку своего профиля
+    - Нажать на кнопку "My profile"
+    - Проверить рейтинг
+  expected-result: |
+    После того как время игры истекает и воспроизводится звуковое оповещение, игра заканчивается. Оба игрока не теряют очки рейтинга.
+
+# give up in a game
+- summary: |
+    Успешная проверка возможности сдаться в игре
+  requirement: |
+    После того как пользователь2 сдаётся, игра заканчивается и пользователь2 теряет рейтинг
+  prerequisites:
+    В аккаунт d2148468@gmail.com с никнеймом "newbee" (пользователь1) выполнен вход с браузера google chrome
+    В аккаунт toster092023@gmail.com с никнеймом "new_player" (пользователь2) выполнен вход с браузера firefox
+    Открыта страница https://codebattle.hexlet.io/#lobby с двух аккаунтов
+  test-data: |
+    отсутствует
+  steps:
+    - Открыть google chrome
+    - Кликнуть по иконке своего профиля
+    - Нажать на кнопку "My profile"
+    - Проверить "elo_rating"
+    - Кликнуть по логотипу сайта
+    - Кликнуть на кнопку "Create a game"
+    - Нажать на кнопку "With other user"
+    - Нажать на кнопку "Create battle"
+    - Открыть firefox
+    - Нажать на кнопку "My profile"
+    - Проверить "elo_rating"
+    - Кликнуть по логотипу сайта
+    - Нажать на кнопку "fight" в списке игр напротив никнейма newbee
+    - Нажать на кнопку меню(кнопка троеточия справа от "run"
+    - Нажать на кнопку "Give up" в выпадающем списке
+    - Нажать на кнопку "Give up" в модальном окне
+    - Нажать на кнопку "I'll be back" в модальном окне
+    - Кликнуть на иконку своего профиля
+    - Нажать на кнопку "My profile"
+    - Проверить рейтинг
+    - Открыть google chrome
+    - Нажать на свободное пространство вне модального окна для закрытия
+    - Кликнуть на иконку своего профиля
+    - Нажать на кнопку "My profile"
+    - Проверить рейтинг
+  expected-result: |
+    После того как пользователь2 сдаётся, игра заканчивается. Пользователь2 теряет рейтинг, рейтинг пользователя1 не меняется
